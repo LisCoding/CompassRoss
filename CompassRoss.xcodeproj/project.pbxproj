@@ -12,6 +12,8 @@
 		7FF25C041F68FB58001595DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF25C021F68FB58001595DB /* Main.storyboard */; };
 		7FF25C061F68FB58001595DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF25C051F68FB58001595DB /* Assets.xcassets */; };
 		7FF25C091F68FB58001595DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF25C071F68FB58001595DB /* LaunchScreen.storyboard */; };
+		7FF25C111F68FF0E001595DB /* DisplayUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF25C101F68FF0E001595DB /* DisplayUIViewController.swift */; };
+		7FF25C151F691238001595DB /* unwindDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF25C141F691238001595DB /* unwindDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7FF25C051F68FB58001595DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FF25C081F68FB58001595DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FF25C0A1F68FB58001595DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF25C101F68FF0E001595DB /* DisplayUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayUIViewController.swift; sourceTree = "<group>"; };
+		7FF25C141F691238001595DB /* unwindDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = unwindDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				7FF25BFE1F68FB58001595DB /* AppDelegate.swift */,
 				7FF25C001F68FB58001595DB /* ViewController.swift */,
 				7FF25C021F68FB58001595DB /* Main.storyboard */,
+				7FF25C101F68FF0E001595DB /* DisplayUIViewController.swift */,
+				7FF25C141F691238001595DB /* unwindDelegate.swift */,
 				7FF25C051F68FB58001595DB /* Assets.xcassets */,
 				7FF25C071F68FB58001595DB /* LaunchScreen.storyboard */,
 				7FF25C0A1F68FB58001595DB /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FF25C111F68FF0E001595DB /* DisplayUIViewController.swift in Sources */,
 				7FF25C011F68FB58001595DB /* ViewController.swift in Sources */,
 				7FF25BFF1F68FB58001595DB /* AppDelegate.swift in Sources */,
+				7FF25C151F691238001595DB /* unwindDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
